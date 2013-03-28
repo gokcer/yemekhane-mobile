@@ -1,0 +1,33 @@
+{
+    "type": "Ext.dataview.List",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "id": "ListGunlukMenu",
+        "designer|userClassName": "ListGunlukMenu",
+        "designer|userAlias": "ListGunlukMenu",
+        "store": "gunlukMenu"
+    },
+    "designerId": "b85ff293-32c3-46fb-871a-aca9493e777c",
+    "cn": [
+        {
+            "type": "Ext.XTemplate",
+            "reference": {
+                "name": "itemTpl",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "itemTpl",
+                "implHandler": [
+                    "<div>{tarih} ({kalori})</div>"
+                ],
+                "designer|displayName": "itemTpl"
+            },
+            "designerId": "16fd507d-0119-4d06-ad41-fc44d5834e23"
+        }
+    ]
+}

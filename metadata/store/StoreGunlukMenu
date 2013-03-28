@@ -1,0 +1,15 @@
+{
+    "type": "Ext.data.Store",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "model": "GunlukMenu",
+        "remoteFilter": true,
+        "storeId": "gunlukMenu",
+        "designer|userClassName": "StoreGunlukMenu"
+    },
+    "designerId": "e5cd5a5f-7404-4a0a-b89d-ff26634629fa"
+}

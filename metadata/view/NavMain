@@ -1,0 +1,84 @@
+{
+    "type": "Ext.navigation.View",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "id": "NavMain",
+        "ui": "",
+        "designer|userClassName": "NavMain",
+        "designer|userAlias": "NavMain",
+        "designer|initialView": true
+    },
+    "designerId": "4ee2db60-be8b-4323-b41a-28cf58f22f56",
+    "cn": [
+        {
+            "type": "basiceventbinding",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "onMainNavInitialize",
+                "fn": "onMainNavInitialize",
+                "implHandler": [
+                    "//"
+                ],
+                "name": "initialize"
+            },
+            "designerId": "73077769-5bd2-4ce8-8556-956c97e1e532"
+        },
+        {
+            "type": "Ext.navigation.Bar",
+            "reference": {
+                "name": "navigationBar",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top",
+                "id": "navBar",
+                "designer|userClassName": "MyNavigationBar"
+            },
+            "designerId": "9153554f-9467-4bc7-bf7d-0b3ec7c86cfa",
+            "cn": [
+                {
+                    "type": "linkedinstance",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "btnsettings",
+                        "align": "right"
+                    },
+                    "designerId": "47f675c8-857d-4e0a-a566-71af1744a055",
+                    "masterInstanceId": "3b08d903-b7ba-4a2e-a0b8-ddd58be0738e",
+                    "cn": [
+                        {
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "onBtnSettingsTap",
+                                "fn": "onBtnSettingsTap",
+                                "implHandler": [
+                                    "//"
+                                ],
+                                "name": "tap"
+                            },
+                            "designerId": "9ba41b6f-c866-4cbe-85d3-e8c990d54036"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "type": "Ext.dataview.List",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "id": "ListYemekhane",
+        "designer|userClassName": "ListYemekhane",
+        "designer|userAlias": "ListYemekhane",
+        "store": "yemekhane"
+    },
+    "designerId": "c3b6bdd3-a3d8-4b94-9520-ac5e561320eb",
+    "cn": [
+        {
+            "type": "Ext.XTemplate",
+            "reference": {
+                "name": "itemTpl",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "itemTpl",
+                "implHandler": [
+                    "<div>{ad}</div>"
+                ],
+                "designer|displayName": "itemTpl"
+            },
+            "designerId": "65d9ac14-b9a0-40a7-b922-9615cf996e06"
+        }
+    ]
+}

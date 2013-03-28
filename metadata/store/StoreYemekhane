@@ -1,0 +1,14 @@
+{
+    "type": "Ext.data.Store",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "model": "Yemekhane",
+        "storeId": "yemekhane",
+        "designer|userClassName": "StoreYemekhane"
+    },
+    "designerId": "d9aa595c-39a3-4098-a255-8dd400135d07"
+}

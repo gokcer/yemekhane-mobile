@@ -1,0 +1,155 @@
+{
+    "name": "Yemekhane",
+    "settings": {
+        "spacesToIndent": 4,
+        "lineEnding": "CRLF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "urlPrefix": "http://gokcer.gokdal.com:8000",
+        "exportPath": "",
+        "buildShouldOverwriteIndex": true
+    },
+    "xdsVersion": "2.2.0",
+    "xdsBuild": 908,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000499,
+    "framework": "touch21",
+    "topInstanceFileMap": {
+        "4ee2db60-be8b-4323-b41a-28cf58f22f56": {
+            "paths": [
+                "metadata/view/NavMain",
+                "app/view/override/NavMain.js",
+                "app/view/NavMain.js"
+            ],
+            "className": "NavMain"
+        },
+        "b85ff293-32c3-46fb-871a-aca9493e777c": {
+            "paths": [
+                "metadata/view/ListGunlukMenu",
+                "app/view/override/ListGunlukMenu.js",
+                "app/view/ListGunlukMenu.js"
+            ],
+            "className": "ListGunlukMenu"
+        },
+        "117a09a6-716f-46e7-a8e8-337263f7f2c5": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        },
+        "51518c6c-ac98-47b4-b848-8b78396fe513": {
+            "paths": [
+                "metadata/resource/direct"
+            ],
+            "className": "direct"
+        },
+        "9693273c-dc2f-41fa-8d32-9cb0eea4bfca": {
+            "paths": [
+                "metadata/view/MyPanel",
+                "app/view/override/MyPanel.js",
+                "app/view/MyPanel.js"
+            ],
+            "className": "MyPanel"
+        },
+        "641f686f-af78-47c5-95fe-20de8458209d": {
+            "paths": [
+                "metadata/store/StoreSettings",
+                "app/store/override/StoreSettings.js",
+                "app/store/StoreSettings.js"
+            ],
+            "className": "StoreSettings"
+        },
+        "43978464-fb3d-4115-89a0-3bf0aff66b4a": {
+            "paths": [
+                "metadata/model/Settings",
+                "app/model/override/Settings.js",
+                "app/model/Settings.js"
+            ],
+            "className": "Settings"
+        },
+        "c3b6bdd3-a3d8-4b94-9520-ac5e561320eb": {
+            "paths": [
+                "metadata/view/ListYemekhane",
+                "app/view/override/ListYemekhane.js",
+                "app/view/ListYemekhane.js"
+            ],
+            "className": "ListYemekhane"
+        },
+        "d9aa595c-39a3-4098-a255-8dd400135d07": {
+            "paths": [
+                "metadata/store/StoreYemekhane",
+                "app/store/override/StoreYemekhane.js",
+                "app/store/StoreYemekhane.js"
+            ],
+            "className": "StoreYemekhane"
+        },
+        "9c6751ba-e0e9-4c5d-955e-5354b3301772": {
+            "paths": [
+                "metadata/model/Yemekhane",
+                "app/model/override/Yemekhane.js",
+                "app/model/Yemekhane.js"
+            ],
+            "className": "Yemekhane"
+        },
+        "e5cd5a5f-7404-4a0a-b89d-ff26634629fa": {
+            "paths": [
+                "metadata/store/StoreGunlukMenu",
+                "app/store/override/StoreGunlukMenu.js",
+                "app/store/StoreGunlukMenu.js"
+            ],
+            "className": "StoreGunlukMenu"
+        },
+        "4b20c4d9-e807-459c-b2c3-65b2e08ceaee": {
+            "paths": [
+                "metadata/model/GunlukMenu",
+                "app/model/override/GunlukMenu.js",
+                "app/model/GunlukMenu.js"
+            ],
+            "className": "GunlukMenu"
+        },
+        "3b08d903-b7ba-4a2e-a0b8-ddd58be0738e": {
+            "paths": [
+                "metadata/view/BtnSettings",
+                "app/view/override/BtnSettings.js",
+                "app/view/BtnSettings.js"
+            ],
+            "className": "BtnSettings"
+        },
+        "fe840214-480b-40f2-95a3-8123998b057f": {
+            "paths": [
+                "metadata/view/PanelSettings",
+                "app/view/override/PanelSettings.js",
+                "app/view/PanelSettings.js"
+            ],
+            "className": "PanelSettings"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "4ee2db60-be8b-4323-b41a-28cf58f22f56",
+            "9693273c-dc2f-41fa-8d32-9cb0eea4bfca",
+            "b85ff293-32c3-46fb-871a-aca9493e777c",
+            "c3b6bdd3-a3d8-4b94-9520-ac5e561320eb",
+            "3b08d903-b7ba-4a2e-a0b8-ddd58be0738e",
+            "fe840214-480b-40f2-95a3-8123998b057f"
+        ],
+        "store": [
+            "641f686f-af78-47c5-95fe-20de8458209d",
+            "d9aa595c-39a3-4098-a255-8dd400135d07",
+            "e5cd5a5f-7404-4a0a-b89d-ff26634629fa"
+        ],
+        "controller": [],
+        "model": [
+            "43978464-fb3d-4115-89a0-3bf0aff66b4a",
+            "9c6751ba-e0e9-4c5d-955e-5354b3301772",
+            "4b20c4d9-e807-459c-b2c3-65b2e08ceaee"
+        ],
+        "resource": [
+            "117a09a6-716f-46e7-a8e8-337263f7f2c5",
+            "51518c6c-ac98-47b4-b848-8b78396fe513"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

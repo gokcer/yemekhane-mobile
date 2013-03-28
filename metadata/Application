@@ -1,0 +1,51 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "Settings",
+            "Yemekhane",
+            "GunlukMenu"
+        ],
+        "stores": [
+            "StoreSettings",
+            "StoreYemekhane",
+            "StoreGunlukMenu"
+        ],
+        "views": [
+            "NavMain",
+            "ListGunlukMenu",
+            "MyPanel",
+            "ListYemekhane",
+            "BtnSettings",
+            "PanelSettings"
+        ],
+        "name": "YemekhaneApp"
+    },
+    "designerId": "application",
+    "cn": [
+        {
+            "type": "fixedfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "launch",
+                "fn": "launch",
+                "implHandler": [
+                    "//var listGunlukMenu = Ext.getCmp(\"listGunlukMenu\");\r",
+                    "//var listGunlukMenu = Ext.getCmp(\"mainNav\").items[0];\r",
+                    "//listGunlukMenu.setData([{tarih:'12.01.2012',kalori:300}]);\r",
+                    ""
+                ]
+            },
+            "designerId": "43b4fa7a-464c-469d-bd75-43eee79a2f44"
+        }
+    ]
+}

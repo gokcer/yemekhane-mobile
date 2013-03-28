@@ -1,0 +1,29 @@
+{
+    "type": "Ext.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyPanel",
+        "designer|userAlias": "myPanel",
+        "layout": "fit"
+    },
+    "designerId": "9693273c-dc2f-41fa-8d32-9cb0eea4bfca",
+    "cn": [
+        {
+            "type": "Ext.Label",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "html": "Hello",
+                "designer|userClassName": "MyLabel"
+            },
+            "designerId": "2f6371b3-e33a-4d3f-96cb-3fce6d24cc48"
+        }
+    ]
+}

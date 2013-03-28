@@ -1,0 +1,55 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Yemekhane"
+    },
+    "designerId": "9c6751ba-e0e9-4c5d-955e-5354b3301772",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "ad",
+                "designer|userClassName": "field2"
+            },
+            "designerId": "e75cd2a6-55db-4543-81af-26a44628d1ee"
+        },
+        {
+            "type": "Ext.data.proxy.Direct",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyDirectProxy",
+                "directFn": "django.yemekhane.listYemekhanes"
+            },
+            "designerId": "5622435c-f559-45c1-90b1-34fc37b9089a",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "rootProperty": "records",
+                        "designer|userClassName": "MyJsonReader"
+                    },
+                    "designerId": "5829206d-459c-4b30-ab18-0ea96489338e"
+                }
+            ]
+        }
+    ]
+}

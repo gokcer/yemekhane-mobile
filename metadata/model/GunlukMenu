@@ -1,0 +1,68 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "GunlukMenu"
+    },
+    "designerId": "4b20c4d9-e807-459c-b2c3-65b2e08ceaee",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "tarih",
+                "designer|userClassName": "field3"
+            },
+            "designerId": "216e829b-1479-4a7c-a62b-b37ba488bf0d"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "kalori",
+                "designer|userClassName": "field4"
+            },
+            "designerId": "8e6376cd-1dec-49b0-8623-724f6fde432b"
+        },
+        {
+            "type": "Ext.data.proxy.Direct",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyDirectProxy1",
+                "directFn": "django.gunlukMenu.gunlukMenusByYemekhaneId"
+            },
+            "designerId": "db6ffa45-302b-4e5e-b1b9-49f84bbfd6b8",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "rootProperty": "records",
+                        "designer|userClassName": "MyJsonReader1"
+                    },
+                    "designerId": "3717c744-cd09-4deb-a017-97cd119ce457"
+                }
+            ]
+        }
+    ]
+}

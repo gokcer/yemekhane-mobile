@@ -1,0 +1,19 @@
+{
+    "type": "Ext.Button",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "html": "",
+        "id": "BtnSettings",
+        "itemId": "BtnSettings",
+        "designer|userClassName": "BtnSettings",
+        "designer|userAlias": "BtnSettings",
+        "iconCls": "settings",
+        "iconMask": true,
+        "text": null
+    },
+    "designerId": "3b08d903-b7ba-4a2e-a0b8-ddd58be0738e"
+}

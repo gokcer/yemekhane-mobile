@@ -1,0 +1,12 @@
+{
+    "type": "directresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "url": "http://127.0.0.1:8000/remoting/config"
+    },
+    "designerId": "51518c6c-ac98-47b4-b848-8b78396fe513"
+}

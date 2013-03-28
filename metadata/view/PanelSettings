@@ -1,0 +1,133 @@
+{
+    "type": "Ext.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "id": "PanelSettings",
+        "itemId": null,
+        "designer|userClassName": "PanelSettings",
+        "designer|userAlias": "PanelSettings",
+        "layout": "fit"
+    },
+    "designerId": "fe840214-480b-40f2-95a3-8123998b057f",
+    "cn": [
+        {
+            "type": "Ext.TitleBar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top",
+                "designer|userClassName": "MyTitleBar"
+            },
+            "designerId": "2466e557-e3dd-40cf-a578-51afa0338728",
+            "cn": [
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "id": "BtnIptal",
+                        "itemId": "BtnIptal",
+                        "designer|userClassName": "MyButton1",
+                        "iconAlign": null,
+                        "text": "İptal"
+                    },
+                    "designerId": "e55b307a-327c-4d64-b390-95008c886832",
+                    "cn": [
+                        {
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "onBtnIptalTap",
+                                "fn": "onBtnIptalTap",
+                                "implHandler": [
+                                    "//"
+                                ],
+                                "name": "tap"
+                            },
+                            "designerId": "b733c736-1d33-4bc7-8781-c5f7be1de29b"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "align": "right",
+                        "id": "BtnKaydet",
+                        "itemId": "BtnKaydet",
+                        "designer|userClassName": "MyButton2",
+                        "text": "Kaydet"
+                    },
+                    "designerId": "0b41ca0c-62e1-4b86-bb40-52d5873a6ce3",
+                    "cn": [
+                        {
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "onBtnKaydetTap",
+                                "fn": "onBtnKaydetTap",
+                                "implHandler": [
+                                    "//"
+                                ],
+                                "name": "tap"
+                            },
+                            "designerId": "66b91f6a-d9ed-4138-b44f-5bc314c39448"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "listyemekhane"
+            },
+            "designerId": "3a18669e-d377-49e9-8bae-5d03b411b63e",
+            "masterInstanceId": "c3b6bdd3-a3d8-4b94-9520-ac5e561320eb"
+        },
+        {
+            "type": "basiceventbinding",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "onPanelInitialize",
+                "fn": "onPanelInitialize",
+                "implHandler": [
+                    "//"
+                ],
+                "name": "initialize"
+            },
+            "designerId": "11af1f20-1d8b-429b-8964-eef4ecf58e1b"
+        }
+    ]
+}
